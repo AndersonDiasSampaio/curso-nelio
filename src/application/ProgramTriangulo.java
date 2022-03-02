@@ -33,7 +33,6 @@ public class ProgramTriangulo {
 		y.setA(sc.nextDouble());
 		y.setB(sc.nextDouble());
 		y.setC(sc.nextDouble());
-		System.out.println(x.getA());
 
 		if (x.area() > y.area())
 

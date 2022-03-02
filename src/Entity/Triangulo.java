@@ -26,4 +26,5 @@ public double getC() {
 public void setC(double c) {
 	this.c = c;
 }
+
 }
