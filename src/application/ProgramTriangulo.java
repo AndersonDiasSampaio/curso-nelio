@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ProgramTriangulo {
 
-	public static void main(String[] args) {a
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double xA, xB, xC, yA, yB, yC;
 		double p = 0, area = 0, p1 = 0, area1 = 0;
