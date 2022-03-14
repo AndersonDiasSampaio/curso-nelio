@@ -1,9 +1,9 @@
 package Entity;
 
 public class Produto {
-String Name;
-double Price;
-int Quantity;
+private String Name;
+private double Price;
+private int Quantity;
 
 public Produto(String name, double price, int quantity) {
 	Name = name;
