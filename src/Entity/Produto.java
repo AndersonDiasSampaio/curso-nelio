@@ -4,9 +4,11 @@ public class Produto {
 String Name;
 double Price;
 int Quantity;
-public Produto(String name, double price) {
+
+public Produto(String name, double price, int quantity) {
 	Name = name;
 	Price = price;
+	Quantity = quantity;
 }
 public Produto() {
 	
