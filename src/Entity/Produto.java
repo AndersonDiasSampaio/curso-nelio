@@ -39,4 +39,10 @@ public double priceTotal() {
 	TotalPrice= this.Quantity*this.Price;
 	return TotalPrice;
 }
+@Override
+public String toString() {
+	return "Produto [Name=" + Name + ", Price=" + Price + ", Quantity=" + Quantity + "]";
+}
+
+
 }
