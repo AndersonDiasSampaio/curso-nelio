@@ -14,29 +14,29 @@ public Produto() {
 	
 }
 public String getName() {
-	return Name;
+	return this.Name;
 }
 public void setName(String name) {
-	Name = name;
+	this.Name = name;
 }
 public double getPrice() {
-	return Price;
+	return this.Price;
 }
 public void setPrice(double price) {
-	Price = price;
+	this.Price = price;
 }
 public int getQuantity() {
 	return Quantity;
 }
 public void addProductQuantity(int quantity) {
-	Quantity = quantity;
+	this.Quantity = quantity;
 }
 public void removeProductQuantity(int quantity) {
-	Quantity = quantity;
+	this.Quantity = quantity;
 }
 public double priceTotal() {
 	double TotalPrice=0;
-	TotalPrice= Quantity*Price;
+	TotalPrice= this.Quantity*this.Price;
 	return TotalPrice;
 }
 }
