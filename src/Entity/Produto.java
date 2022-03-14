@@ -28,8 +28,15 @@ public void setPrice(double price) {
 public int getQuantity() {
 	return Quantity;
 }
-public void setQuantity(int quantity) {
+public void addProductQuantity(int quantity) {
 	Quantity = quantity;
 }
-
+public void removeProductQuantity(int quantity) {
+	Quantity = quantity;
+}
+public double priceTotal() {
+	double TotalPrice=0;
+	TotalPrice= Quantity*Price;
+	return TotalPrice;
+}
 }
