@@ -29,10 +29,10 @@ public int getQuantity() {
 	return Quantity;
 }
 public void addProductQuantity(int quantity) {
-	this.Quantity = quantity;
+	this.Quantity = this.Quantity + quantity;
 }
 public void removeProductQuantity(int quantity) {
-	this.Quantity = quantity;
+	this.Quantity = this.Quantity - quantity;
 }
 public double priceTotal() {
 	double TotalPrice=0;
